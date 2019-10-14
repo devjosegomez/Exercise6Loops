@@ -31,6 +31,18 @@ public class ForLoop {
 			}
 			System.out.println(i);
 		}
+		
+		System.out.println("Display half series from 100 to 200");
+		
+		//100 to 150
+		for(int i=100; i<200; i++) {
+			
+			if(i==150) {
+				break;
+			}
+			System.out.println(i);
+		}
+		
 	}
 
 }
